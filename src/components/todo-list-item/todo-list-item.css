@@ -1,0 +1,67 @@
+.btn {
+	border: none;
+	background: none;
+	outline: none;
+}
+
+.btn_accept {
+	border: 2px solid green;
+	border-radius: 10px;
+}
+
+.btn_accept:hover {
+	color: white;
+	background-color: green;
+	transform: scale(1.2);
+}
+
+.btn_important {
+	border: 2px solid red;
+	border-radius: 10px;
+	margin-right: 10px;
+}
+
+.btn_important:hover {
+	color: white;
+	background-color: red;
+	transform: scale(1.2);
+}
+
+.btn_delete {
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+.btn_delete:hover {
+	color: white;
+	background-color: black;
+	transform: scale(1.2);
+}
+
+.todo-list-item {
+	min-width: 200px;
+	margin: 15px;
+	padding: 10px 20px;
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid black;
+	border-radius: 10px;
+
+}
+
+.todo-list-item:hover {
+	background-color: #eae4e4b0;
+	transform: scale(1.05);
+	box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+}
+
+.todo-list-item.done {
+  text-decoration: line-through;
+  color: green;
+}
+
+.todo-list-item.important {
+  font-weight: bold;
+  color: red;
+  font-size: 1.2em;
+}
